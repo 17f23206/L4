@@ -1,0 +1,13 @@
+print("What is your first initial?")
+initial = input()
+print("What is your surname")
+surname = input()
+print("What is your age?")
+age = int(input())
+print("Do you like marmite? Yes or No")
+marmite = input()
+likes_marmite = marmite == "Yes"
+decades = float(age / 10)
+print(f"Well hello {initial} {surname}.")
+print(f"It is {likes_marmite} that you like marmite.")
+print(f"This is probably because you are {decades} decades old")
